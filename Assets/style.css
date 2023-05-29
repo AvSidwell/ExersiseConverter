@@ -1,0 +1,30 @@
+/*
+let disp = getElementById("#display") 
+// Function to convert Celsius to Fahrenheit
+function calculateToFahrenheit(celsius) {
+  // TODO: Implement the conversion logic here
+  let inFahrenheit = (celsius * 9)/ 5 + 32 
+  document.write(celsius + " " +"C" + "is" + inFahrenheit + "" + "F" )
+};
+
+// Function to convert Fahrenheit to Celsius
+function calculateToCelsius(fahrenheit) {
+  // TODO: Implement the conversion logic here
+  let inCelsius = ((fahrenheit -32) * 5 )/ 9
+};
+
+// Prompt the user for input
+let temperature = parseFloat(prompt("Enter the temperature:"));
+let conversionType = prompt(
+  "Choose the conversion type: (C to F or F to C)"
+);
+
+if (conversionType.toLowerCase() === "celsius to fahrenheit") {
+  // TODO: Call the celsiusToFahrenheit function and display the result
+calculateToFahrenheit(temperature)
+} else if (conversionType.toLowerCase() === "fahrenheit to celsius") {
+  // TODO: Call the fahrenheitToCelsius function and display the result
+  calculateToCelsius(temperature)
+} else {
+  alert("Invalid conversion type."); */
+}
